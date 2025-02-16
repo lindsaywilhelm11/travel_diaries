@@ -9,6 +9,11 @@ function Navigation() {
             Profile
           </NavLink>
         </li>
+        <li>
+        <NavLink to="/login" className={({ isActive }) => (isActive ? "active-link" : "")}>
+            Login
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
